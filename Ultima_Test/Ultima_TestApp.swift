@@ -13,8 +13,8 @@ struct Ultima_TestApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MonDetail()
+                //.environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

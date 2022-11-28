@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5752F1D92934E14600795481 /* DexMonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752F1D82934E14600795481 /* DexMonRow.swift */; };
+		5752F1DB2934E6B900795481 /* DexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752F1DA2934E6B900795481 /* DexView.swift */; };
 		577EE4F42933DF1600BCB8C4 /* Ultima_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE4F32933DF1600BCB8C4 /* Ultima_TestApp.swift */; };
 		577EE4F62933DF1600BCB8C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE4F52933DF1600BCB8C4 /* ContentView.swift */; };
 		577EE4F82933DF1800BCB8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577EE4F72933DF1800BCB8C4 /* Assets.xcassets */; };
 		577EE4FB2933DF1800BCB8C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577EE4FA2933DF1800BCB8C4 /* Preview Assets.xcassets */; };
 		577EE4FD2933DF1800BCB8C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE4FC2933DF1800BCB8C4 /* Persistence.swift */; };
 		577EE5002933DF1800BCB8C4 /* Ultima_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 577EE4FE2933DF1800BCB8C4 /* Ultima_Test.xcdatamodeld */; };
+		577EE5072933E0EC00BCB8C4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE5062933E0EC00BCB8C4 /* HomeScreen.swift */; };
+		577EE50B2933E52800BCB8C4 /* DexSelectorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE50A2933E52800BCB8C4 /* DexSelectorButton.swift */; };
+		577EE50E2933EB8C00BCB8C4 /* DexSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE50D2933EB8C00BCB8C4 /* DexSelector.swift */; };
+		577EE5122933F5AA00BCB8C4 /* MonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE5112933F5AA00BCB8C4 /* MonDetail.swift */; };
+		577EE5142933F68000BCB8C4 /* MonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE5132933F68000BCB8C4 /* MonImage.swift */; };
+		577EE5182933FE0600BCB8C4 /* MonPartyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE5172933FE0600BCB8C4 /* MonPartyImage.swift */; };
+		577EE51C29340A1900BCB8C4 /* MonEvolution3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE51B29340A1900BCB8C4 /* MonEvolution3.swift */; };
+		577EE51E29340A3700BCB8C4 /* MonEvolution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE51D29340A3700BCB8C4 /* MonEvolution2.swift */; };
+		577EE52029340F7500BCB8C4 /* IVCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE51F29340F7500BCB8C4 /* IVCharts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5752F1D82934E14600795481 /* DexMonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexMonRow.swift; sourceTree = "<group>"; };
+		5752F1DA2934E6B900795481 /* DexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexView.swift; sourceTree = "<group>"; };
 		577EE4F02933DF1600BCB8C4 /* Ultima_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ultima_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577EE4F32933DF1600BCB8C4 /* Ultima_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultima_TestApp.swift; sourceTree = "<group>"; };
 		577EE4F52933DF1600BCB8C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +36,15 @@
 		577EE4FA2933DF1800BCB8C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		577EE4FC2933DF1800BCB8C4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		577EE4FF2933DF1800BCB8C4 /* Ultima_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ultima_Test.xcdatamodel; sourceTree = "<group>"; };
+		577EE5062933E0EC00BCB8C4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		577EE50A2933E52800BCB8C4 /* DexSelectorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexSelectorButton.swift; sourceTree = "<group>"; };
+		577EE50D2933EB8C00BCB8C4 /* DexSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexSelector.swift; sourceTree = "<group>"; };
+		577EE5112933F5AA00BCB8C4 /* MonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonDetail.swift; sourceTree = "<group>"; };
+		577EE5132933F68000BCB8C4 /* MonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonImage.swift; sourceTree = "<group>"; };
+		577EE5172933FE0600BCB8C4 /* MonPartyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonPartyImage.swift; sourceTree = "<group>"; };
+		577EE51B29340A1900BCB8C4 /* MonEvolution3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonEvolution3.swift; sourceTree = "<group>"; };
+		577EE51D29340A3700BCB8C4 /* MonEvolution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonEvolution2.swift; sourceTree = "<group>"; };
+		577EE51F29340F7500BCB8C4 /* IVCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVCharts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +77,16 @@
 		577EE4F22933DF1600BCB8C4 /* Ultima_Test */ = {
 			isa = PBXGroup;
 			children = (
+				577EE5102933EEE000BCB8C4 /* Components */,
+				577EE50F2933EED600BCB8C4 /* Data Models */,
+				577EE5082933E4DA00BCB8C4 /* Views */,
 				577EE4F32933DF1600BCB8C4 /* Ultima_TestApp.swift */,
 				577EE4F52933DF1600BCB8C4 /* ContentView.swift */,
 				577EE4F72933DF1800BCB8C4 /* Assets.xcassets */,
 				577EE4FC2933DF1800BCB8C4 /* Persistence.swift */,
 				577EE4FE2933DF1800BCB8C4 /* Ultima_Test.xcdatamodeld */,
 				577EE4F92933DF1800BCB8C4 /* Preview Content */,
+				577EE5062933E0EC00BCB8C4 /* HomeScreen.swift */,
 			);
 			path = Ultima_Test;
 			sourceTree = "<group>";
@@ -71,6 +97,45 @@
 				577EE4FA2933DF1800BCB8C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		577EE5082933E4DA00BCB8C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				577EE5092933E4FC00BCB8C4 /* Detail Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		577EE5092933E4FC00BCB8C4 /* Detail Views */ = {
+			isa = PBXGroup;
+			children = (
+				577EE50A2933E52800BCB8C4 /* DexSelectorButton.swift */,
+				577EE50D2933EB8C00BCB8C4 /* DexSelector.swift */,
+				577EE5112933F5AA00BCB8C4 /* MonDetail.swift */,
+				577EE5132933F68000BCB8C4 /* MonImage.swift */,
+				577EE5172933FE0600BCB8C4 /* MonPartyImage.swift */,
+				577EE51B29340A1900BCB8C4 /* MonEvolution3.swift */,
+				577EE51D29340A3700BCB8C4 /* MonEvolution2.swift */,
+				577EE51F29340F7500BCB8C4 /* IVCharts.swift */,
+				5752F1D82934E14600795481 /* DexMonRow.swift */,
+				5752F1DA2934E6B900795481 /* DexView.swift */,
+			);
+			path = "Detail Views";
+			sourceTree = "<group>";
+		};
+		577EE50F2933EED600BCB8C4 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		577EE5102933EEE000BCB8C4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +208,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577EE51C29340A1900BCB8C4 /* MonEvolution3.swift in Sources */,
 				577EE4FD2933DF1800BCB8C4 /* Persistence.swift in Sources */,
+				577EE5182933FE0600BCB8C4 /* MonPartyImage.swift in Sources */,
+				577EE50E2933EB8C00BCB8C4 /* DexSelector.swift in Sources */,
+				577EE5072933E0EC00BCB8C4 /* HomeScreen.swift in Sources */,
+				577EE50B2933E52800BCB8C4 /* DexSelectorButton.swift in Sources */,
 				577EE4F62933DF1600BCB8C4 /* ContentView.swift in Sources */,
+				577EE52029340F7500BCB8C4 /* IVCharts.swift in Sources */,
+				577EE5142933F68000BCB8C4 /* MonImage.swift in Sources */,
 				577EE4F42933DF1600BCB8C4 /* Ultima_TestApp.swift in Sources */,
 				577EE5002933DF1800BCB8C4 /* Ultima_Test.xcdatamodeld in Sources */,
+				577EE5122933F5AA00BCB8C4 /* MonDetail.swift in Sources */,
+				577EE51E29340A3700BCB8C4 /* MonEvolution2.swift in Sources */,
+				5752F1DB2934E6B900795481 /* DexView.swift in Sources */,
+				5752F1D92934E14600795481 /* DexMonRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +359,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +389,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
