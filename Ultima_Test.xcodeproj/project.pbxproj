@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5752F1D92934E14600795481 /* DexMonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752F1D82934E14600795481 /* DexMonRow.swift */; };
 		5752F1DB2934E6B900795481 /* DexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752F1DA2934E6B900795481 /* DexView.swift */; };
+		5752F1DE2935140300795481 /* PokemonAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 5752F1DD2935140300795481 /* PokemonAPI */; };
 		577EE4F42933DF1600BCB8C4 /* Ultima_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE4F32933DF1600BCB8C4 /* Ultima_TestApp.swift */; };
 		577EE4F62933DF1600BCB8C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577EE4F52933DF1600BCB8C4 /* ContentView.swift */; };
 		577EE4F82933DF1800BCB8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577EE4F72933DF1800BCB8C4 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5752F1DE2935140300795481 /* PokemonAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,9 @@
 			dependencies = (
 			);
 			name = Ultima_Test;
+			packageProductDependencies = (
+				5752F1DD2935140300795481 /* PokemonAPI */,
+			);
 			productName = Ultima_Test;
 			productReference = 577EE4F02933DF1600BCB8C4 /* Ultima_Test.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 577EE4E72933DF1600BCB8C4;
+			packageReferences = (
+				5752F1DC2935140300795481 /* XCRemoteSwiftPackageReference "PokemonAPI" */,
+			);
 			productRefGroup = 577EE4F12933DF1600BCB8C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -429,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5752F1DC2935140300795481 /* XCRemoteSwiftPackageReference "PokemonAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kinkofer/PokemonAPI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5752F1DD2935140300795481 /* PokemonAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5752F1DC2935140300795481 /* XCRemoteSwiftPackageReference "PokemonAPI" */;
+			productName = PokemonAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		577EE4FE2933DF1800BCB8C4 /* Ultima_Test.xcdatamodeld */ = {
